@@ -11,7 +11,7 @@ function EducationalPreview({resumeInfo}) {
         borderColor:resumeInfo?.themeColor
       }}/>
 
-      {resumeInfo?.education.map((education,index)=>(
+      {resumeInfo?.Education?.map((education,index)=>(
         <div key={index} className='my-5'>
             <h2 className='text-sm font-bold'
                 style={{

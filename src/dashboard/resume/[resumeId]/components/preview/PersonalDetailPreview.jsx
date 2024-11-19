@@ -1,6 +1,7 @@
 import React from 'react'
 
 function PersonalDetailPreview({resumeInfo}) {
+    console.log("Resume Info: ", resumeInfo)
   return (
     <div>
         <h2 className='font-bold text-xl text-center'
